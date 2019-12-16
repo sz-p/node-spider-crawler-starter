@@ -1,0 +1,23 @@
+{
+  "name": "node-express-starter",
+  "version": "0.1.0",
+  "scripts": {
+    "startSpider": "babel-node ./scripts/start.js"
+  },
+  "dependencies": {
+    "crawler": "^1.2.1",
+    "mysql": "^2.16.0",
+    "image-downloader": "^3.5.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/node": "^7.7.4",
+    "@babel/preset-env": "^7.7.6",
+    "babel-loader": "^8.0.6",
+    "babel-register": "^6.26.0",
+    "nodemon": "^2.0.2",
+    "webpack": "^4.41.2"
+  }
+}
